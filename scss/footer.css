@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: gray;
+    height: 20vh;
+    align-items: center;
+    padding: 30px;
+  }
+  footer > div:nth-child(1) div {
+    display: flex;
+    align-items: center;
+    color: rgb(45, 127, 251);
+  }
+  footer > div:nth-of-type(2) i {
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(45, 127, 251);
+  }
+  footer > div:nth-of-type(1) div p:not(:first-of-type) {
+    padding: 0 10px;
+  }
+  footer > div:nth-of-type(1) div p:first-of-type {
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    height: 30vh;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+  footer > div:nth-child(1) div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: rgb(45, 127, 251);
+  }
+  footer > div:nth-of-type(2) i {
+    font-size: 30px;
+    padding: 15px;
+    color: rgb(45, 127, 251);
+  }
+  footer > div:nth-of-type(1) div p {
+    padding: 0 10px;
+  }
+}/*# sourceMappingURL=footer.css.map */

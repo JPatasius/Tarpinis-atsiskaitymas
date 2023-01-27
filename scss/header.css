@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5vh;
+    background-color: white;
+    align-items: center;
+  }
+  header button {
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5vh;
+    background-color: white;
+    align-items: center;
+  }
+  header button {
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  main > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../app/images/bg-.jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding: 20% 0;
+  }
+  main > div:nth-child(1) div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 33%;
+    align-self: center;
+  }
+  main > div:nth-child(1) h1 {
+    color: white;
+    text-align: center;
+    padding: 0 30%;
+  }
+  main > div:nth-child(1) input {
+    width: auto;
+    margin-bottom: 5px;
+  }
+  main > div:nth-child(1) button {
+    width: auto;
+  }
+}/*# sourceMappingURL=header.css.map */

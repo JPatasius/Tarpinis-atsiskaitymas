@@ -1,0 +1,236 @@
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  main > div:nth-child(1) {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../app/images/bg-.jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+  main > div:nth-child(1) div {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    align-self: center;
+  }
+  main > div:nth-child(1) h1 {
+    color: white;
+    text-align: center;
+    padding: 0 30%;
+  }
+  main > div:nth-child(1) input {
+    width: 80%;
+    margin-right: 5px;
+  }
+  main > div:nth-child(1) button {
+    width: 20%;
+    margin-right: 5px;
+  }
+  .wrapper {
+    padding: 0 10%;
+  }
+  main > div:nth-child(2) {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 15%;
+    text-align: center;
+  }
+  main > div:nth-child(2) div {
+    width: 20%;
+    justify-content: center;
+  }
+  main > div:nth-child(2) div a {
+    font-size: 50px;
+    color: rgb(45, 127, 251);
+  }
+  main > div:nth-child(3) {
+    display: grid;
+  }
+  main > div:nth-child(3) img {
+    width: 100%;
+  }
+  main > div:nth-child(3) div {
+    width: 60%;
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main > div:nth-child(4) {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  main > div:nth-child(4) div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  main > div:nth-child(4) img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
+  main > div:nth-child(4) div div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    align-self: baseline;
+  }
+  main > div:nth-child(4) p {
+    display: flex;
+    justify-content: center;
+  }
+  main > div:nth-child(5) {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../app/images/bg-.jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+  }
+  main > div:nth-child(5) div {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    align-self: center;
+  }
+  main > div:nth-child(5) h1 {
+    color: white;
+    text-align: center;
+    padding: 0 30%;
+  }
+  main > div:nth-child(5) input {
+    width: 80%;
+    margin-right: 5px;
+  }
+  main > div:nth-child(5) button {
+    width: 20%;
+    margin-right: 5px;
+  }
+  .grid-item-1 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+  }
+  .grid-item-2 {
+    grid-row-start: 1;
+  }
+  .grid-item-3 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+  .grid-item-4 {
+    grid-row-start: 2;
+  }
+  .grid-item-5 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+  }
+  .grid-item-6 {
+    grid-row-start: 3;
+  }
+}
+@media screen and (max-width: 768px) {
+  main > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20% 0;
+    text-align: center;
+  }
+  main > div:nth-child(2) div {
+    width: 100%;
+    justify-content: center;
+  }
+  main > div:nth-child(2) div a {
+    font-size: 50px;
+    color: rgb(45, 127, 251);
+  }
+  main > div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main > div:nth-child(3) img {
+    width: 100%;
+  }
+  main > div:nth-child(3) div {
+    width: 80%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main > div:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    padding: 20% 15%;
+    text-align: center;
+    justify-content: center;
+  }
+  main > div:nth-child(4) div {
+    flex-direction: column;
+    text-align: center;
+  }
+  main > div:nth-child(4) img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
+  main > div:nth-child(4) div div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    align-self: baseline;
+  }
+  main > div:nth-child(4) p {
+    display: flex;
+    justify-content: center;
+  }
+  main > div:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../app/images/bg-.jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding: 20% 0;
+  }
+  main > div:nth-child(5) div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+  }
+  main > div:nth-child(5) h1 {
+    color: white;
+    text-align: center;
+    padding: 0 30%;
+  }
+  main > div:nth-child(5) input {
+    width: auto;
+    margin-bottom: 5px;
+  }
+  main > div:nth-child(5) button {
+    width: auto;
+  }
+}/*# sourceMappingURL=main.css.map */
